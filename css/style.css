@@ -81,3 +81,165 @@
 .button-box button {
     margin: 0 20px 0 0;
 }
+
+.title {
+    height: 45px;
+    color: black;
+    font-weight: bold;
+}
+
+main {
+    max-width: 1140px;
+    margin: auto;
+}
+
+main section {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.about {
+    padding: 100px;
+    border-radius: 10px;
+}
+
+.content-box {
+    background-color: #fff8f3;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 15px;
+}
+
+.det {
+    display: flex;
+    justify-content: space-around;
+}
+
+.det div {
+    line-height: 0.5;
+}
+
+.det div h3 {
+    font-weight: 300;
+}
+
+.det div h2 {
+    font-size: 20px;
+}
+
+.contact-container {
+    padding: 40px 200px;
+    display: flex;
+    gap: 40px;
+}
+
+.info {
+
+    width: 50%;
+    padding: 20px;
+}
+
+.message {
+
+    width: 50%;
+    padding: 20px;
+}
+
+.icon-list {
+    display: flex;
+}
+
+.icon-list img {
+    margin-right: 20px;
+}
+
+.message form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 80%;
+    padding: 5px 10px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+.footer-btn {
+
+    background-color: orangered;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.skills {
+    padding: 10px 50px;
+}
+
+.skills-box {
+    display: flex;
+    gap: 15px;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.box-item {
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skill-des {
+    text-align: center;
+}
+
+.skill-title {
+    text-align: center;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.education {
+    width: 50%;
+    padding: 20px;
+}
+
+.experiences {
+    width: 50%;
+    padding: 20px;
+
+}
+
+.education-title {
+    margin: 10px 0px;
+}
+
+.download-cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con-btn {
+    background-color: orangered;
+    border-radius: 5px;
+    border: none;
+}
